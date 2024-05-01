@@ -13,7 +13,6 @@ on:
       - terraform/**
 
 env:
-  # Credentials for deployment to AWS
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_KEY_ID: ${{ secrets.AWS_SECRET_KEY_ID }}
   # S3 bucket for the Terraform state
